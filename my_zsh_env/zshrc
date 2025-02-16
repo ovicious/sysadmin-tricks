@@ -69,7 +69,7 @@ ZSH_THEME="fino-time"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git virtualenv virtualenvwrapper)
+plugins=(git ssh virtualenv virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,15 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-PROMPT+=' $(virtualenv_prompt_info)'
-alias irops="cd /home/ovicious/project-directory/irops"
-alias p='vim ~/pass'
-alias ser@83-avishek='ssh -v avishek@45.114.84.83'
-alias ser@54-imagine='ssh -v imagine@45.114.84.54'
-alias test-location='cd /home/ovicious/vagrant-test-area/ubuntu-20.04-focal'
+# PROMPT+=' $(virtualenv_prompt_info)'
 alias x='exit'
-alias my-repositories="cd /home/ovicious/project-directory/my-repositories"
-alias linode-droplet="ssh root@172.105.117.125"
 alias graph="git log --all --decorate --oneline --graph"
-alias imagine_project_imaginedo="cd /home/ovicious/Documents/Backup-HP-Laptop/imagineradio/main_project_imaginedo"
-
+alias python="python3"
